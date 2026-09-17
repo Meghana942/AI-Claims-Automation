@@ -1,0 +1,8 @@
+fastapi==0.141.1
+uvicorn==0.52.1
+python-multipart==0.0.32
+paddleocr==3.7.0
+paddlepaddle==3.2.0
+opencv-python==4.11.0.86
+PyMuPDF==1.28.2
+numpy==2.3.5
