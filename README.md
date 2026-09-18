@@ -31,11 +31,13 @@ The project includes a Python-based backend with FastAPI, OCR processing using P
 ## Tech Stack
 
 ### Backend
+
 - Python
 - FastAPI
 - Uvicorn
 
 ### OCR & Document Processing
+
 - PaddleOCR
 - PP-Structure
 - PaddlePaddle
@@ -43,11 +45,13 @@ The project includes a Python-based backend with FastAPI, OCR processing using P
 - PyMuPDF
 
 ### Frontend
+
 - Oracle APEX
 - JavaScript
 - AJAX
 
 ### Integration
+
 - REST APIs
 - JSON
 - Oracle Health Insurance (OHI)
@@ -77,6 +81,7 @@ AI-Claims-Automation/
 ├── test_ppstructure_v3.py
 ├── .gitignore
 └── README.md
+```
 
 ## How It Works
 
@@ -113,6 +118,33 @@ The system processes a claim document through the following stages:
 ```bash
 git clone https://github.com/Meghana942/AI-Claims-Automation.git
 cd AI-Claims-Automation
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the FastAPI Application
+
+```bash
+uvicorn app.main:app --reload
+```
+
+The FastAPI server will start locally and can be accessed through the displayed local URL.
 
 ## API Documentation
 
@@ -120,6 +152,9 @@ Once the FastAPI application is running, the interactive API documentation can b
 
 ```text
 http://127.0.0.1:8000/docs
+```
+
+FastAPI provides an interactive Swagger UI that can be used to explore and test the available API endpoints.
 
 ## Future Enhancements
 
