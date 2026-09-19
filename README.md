@@ -173,6 +173,18 @@ The current implementation demonstrates the core document processing and claim a
 
 ## Screenshots / Demo
 
-Screenshots demonstrating the claim document upload, extracted information, structured claim data, and application response can be added here.
+### Claim Document Upload
 
-> Screenshots can be added to this section to showcase the application's workflow and user interface.
+![Claim Document Upload](screenshots/01-home.png)
+
+### Extracted Claim Information
+
+![Claim Result](screenshots/02-claim-result.png)
+
+### Services & Charges
+
+![Services and Charges](screenshots/03-services-charges.png)
+
+### Claims Processing Dashboard
+
+![Processing Dashboard](screenshots/04-processing-dashboard.png)
